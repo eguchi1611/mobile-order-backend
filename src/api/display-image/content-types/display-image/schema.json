@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "display_images",
+  "info": {
+    "singularName": "display-image",
+    "pluralName": "display-images",
+    "displayName": "Display Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
