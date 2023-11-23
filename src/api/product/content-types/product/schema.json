@@ -30,6 +30,14 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "single",
+        "partypack"
+      ],
+      "required": true
     }
   }
 }

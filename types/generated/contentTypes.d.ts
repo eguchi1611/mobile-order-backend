@@ -378,6 +378,8 @@ export interface ApiProductProduct extends Schema.CollectionType {
     description: Attribute.RichText;
     price: Attribute.Integer & Attribute.Required;
     thumbnail: Attribute.Media;
+    category: Attribute.Enumeration<['single', 'partypack']> &
+      Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
